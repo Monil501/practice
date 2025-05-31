@@ -4,6 +4,8 @@ const cors = require('cors')
 const app = express()
 app.use(cors())
 
+
+// backend API endpointq
 app.get('/api/message', (req, res) => {
   res.json({ message: 'Hello from the backend!' })
 })
